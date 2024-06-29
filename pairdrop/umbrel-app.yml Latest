@@ -1,0 +1,31 @@
+manifestVersion: 1
+id: sparkles-hello-world
+name: Pairdrop
+tagline: Fork of Snapdrop.
+icon: https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png?raw=true
+category: Development
+version: "1.0.0"
+port: 4005
+description: >-
+  File sharing on your local network that works on all platforms.
+
+
+  A multi-platform AirDrop-like solution that works.
+
+
+developer: schlagmichdoch
+website: https://pairdrop.net/
+submitter: Tgru
+submission: https://github.com/tgru-dev/tgru-appstore/tree/master/pairdrop
+repo: https://github.com/tgru-dev/tgru-appstore/
+support: https://github.com/tgru-dev/tgru-appstore/issues
+gallery:
+  - https://i.imgur.com/1D8z82V.png
+  - https://i.imgur.com/1NwnGmI.png
+  - https://i.imgur.com/QuZriOi.png
+releaseNotes: >-
+  Nothing.
+dependencies: []
+path: ""
+defaultUsername: ""
+defaultPassword: ""
