@@ -6,12 +6,18 @@ services:
     environment:
       # The format here is: <app-id>_<docker-service-name>_1
       APP_HOST: tgru-kiwix_server_1
-      APP_PORT: 8888:80
+      APP_PORT: 8080:8080
     
 
   server:
-    image: kiwix/kiwix-serve
-    ports:
-      - '8888:80'
-    volumes:
-      - "./data/zim:/data"
+      ports:
+        - 8080:8080
+      image: ghcr.io/kiwix/kiwix-serve:latest
+      # uncomment next 4 lines to use it with local zim file in /tmp/zim
+      volumes:
+         - /tmp/zim:/data
+      command:
+         - '*.zim'
+      # uncomment next 2 lines to use it with remote zim file
+      # environment:
+      #   - 'DOWNLOAD=https://download.kiwix.org/zim/wikipedia_bm_all.zim'
