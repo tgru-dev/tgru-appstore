@@ -2,7 +2,7 @@ manifestVersion: 1
 id: tgru-kiwix
 name: Kiwix
 tagline: Fork of Snapdrop.
-icon: https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png?raw=true
+icon: https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Kiwix_logo_v3.svg/640px-Kiwix_logo_v3.svg.png
 category: Development
 version: "1.0.0"
 port: 4088
