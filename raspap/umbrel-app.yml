@@ -2,7 +2,7 @@ manifestVersion: 1
 id: sparkles-raspap
 name: Raspap
 tagline: Fork of Snapdrop.
-icon: https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png?raw=true
+icon: https://avatars.githubusercontent.com/u/78154814?s=280&v=4
 category: Development
 version: "1.0.0"
 port: 4099
