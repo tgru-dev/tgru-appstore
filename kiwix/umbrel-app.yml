@@ -5,7 +5,7 @@ tagline: Fork of Snapdrop.
 icon: https://github.com/schlagmichdoch/PairDrop/blob/master/public/images/logo_blue_512x512.png?raw=true
 category: Development
 version: "1.0.0"
-port: 4005
+port: 4088
 description: >-
   File sharing on your local network that works on all platforms.
 
