@@ -1,4 +1,5 @@
 # Tgru Appstore ☂️🏬
+a Community App Store for Community App Store
 
 ## Umbrel Community App Store Template
 
